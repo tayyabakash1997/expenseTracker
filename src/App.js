@@ -1,4 +1,4 @@
-import Card from "./components/Card";
+
 import Expensitem from "./components/Expenseitem";
 
 
@@ -25,7 +25,7 @@ function App() {
     },
   ];
   return (
-    <Card>
+    <div>
       <Expensitem
         title={expenses[0].title}
         amount={expenses[0].amount}
@@ -46,7 +46,7 @@ function App() {
         amount={expenses[3].amount}
         date={expenses[3].date}
       />
-    </Card>
+    </div>
   );
 }
 
